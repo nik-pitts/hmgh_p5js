@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Human Machin Guitar Hero</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
+
+    <!-- p5.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+
+    <!-- p5.js files to load -->
+    <!-- 1. Core utility and data structures -->
+    <script src="Tuple.js"></script>
+    <script src="WhoIsTalking.js"></script>
+
+    <!-- 2. Game object data classes -->
+    <script src="Button.js"></script>
+    <script src="GuitarString.js"></script>
+    <script src="BeatPattern.js"></script>
+    <script src="Score.js"></script>
+
+    <!-- 3. Utility logic -->
+    <script src="JSONTool.js"></script>
+    <script src="KeyAction.js"></script>
+    <script src="MouseAction.js"></script>
+
+    <!-- 4. Game logic and interaction systems -->
+    <script src="StartLaneSelect.js"></script>
+    <script src="GameStartScene.js"></script>
+    <script src="GameUI.js"></script>
+    <script src="Communication.js"></script>
+    <script src="GameEndScene.js"></script>
+
+    <!-- 5. Complex logic using many others -->
+    <script src="Player.js"></script>
+    <script src="GameScene.js"></script>
+
+    <!-- 6. Main sketch entry point -->
+    <script src="guitarHero_sketch.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Human Machine Guitar Hero.</h1>
+        <h2>: A machine partner that knows your play style and adjusts to it.</h2>
+        <p>Welcome to the Human Machine Guitar Hero game! Press anywhere to start the game.</p>
+    </main>
+</body>
